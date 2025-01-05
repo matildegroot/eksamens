@@ -1,0 +1,35 @@
+@font-face {
+    font-family: MADEmellow_medium;
+    src: url(/fonts/MADEMellowPERSONALUSE-Medium.otf);
+}
+
+@font-face {
+    font-family: MADEmellow_regular;
+    src: url(/fonts/MADEMellowPERSONALUSE-Regular.otf);
+}
+
+@font-face {
+    font-family: Belgiano;
+    src: url(/fonts/Belgiano\ Serif\ 2.ttf);
+}
+
+*{
+    margin: 2px;
+  padding: 2px;
+}
+
+html {
+    --BG_color: #EEE0C5;
+    --tekst_color:#1E4377;
+    --p_color:#9E7A6A;
+    --H1H2_color: white;
+    --H1_font: "MADEmellow_medium";
+    --H2_font: "MADEmellow_regular";
+    --p_font: "Belgiano";
+  }
+
+  body {
+    background-color: var(--BG_color);
+  }
+
+  /* Valideret */
