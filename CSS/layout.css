@@ -1,16 +1,16 @@
 @font-face {
     font-family: MADEmellow_medium;
-    src: url(/fonts/MADEMellowPERSONALUSE-Medium.otf);
+    src: url(../fonts/MADEMellowPERSONALUSE-Medium.otf);
 }
 
 @font-face {
     font-family: MADEmellow_regular;
-    src: url(/fonts/MADEMellowPERSONALUSE-Regular.otf);
+    src: url(../fonts/MADEMellowPERSONALUSE-Regular.otf);
 }
 
 @font-face {
     font-family: Belgiano;
-    src: url(/fonts/Belgiano\ Serif\ 2.ttf);
+    src: url(../fonts/Belgiano\ Serif\ 2.ttf);
 }
 
 *{
