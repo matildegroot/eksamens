@@ -1,39 +1,4 @@
-// OM MIG TYPEWRITER EFFEKT
 
-document.addEventListener("DOMContentLoaded", () => { 
-    const text = "Om mig"; 
-    let index = 0;
-  
-    function typeWriter() {
-      const element = document.getElementById('typewriter1');
-      if (index < text.length) {
-        element.textContent += text.charAt(index); 
-        index++;
-        setTimeout(typeWriter, 200); 
-      }
-    }
-  
-    document.getElementById('typewriter1').textContent = "";
-    typeWriter();
-  });
-
-  // CV TYPEWRITER EFFEKT
-  document.addEventListener("DOMContentLoaded", () => { 
-    const text = "CV"; 
-    let index = 0;
-  
-    function typeWriter() {
-      const element = document.getElementById('typewriter2');
-      if (index < text.length) {
-        element.textContent += text.charAt(index); 
-        index++;
-        setTimeout(typeWriter, 200); 
-      }
-    }
-  
-    document.getElementById('typewriter2').textContent = "";
-    typeWriter();
-  });
 
   // FORSIDE TYPEWRITER EFFEKT
   document.addEventListener("DOMContentLoaded", () => { 
@@ -63,10 +28,82 @@ document.addEventListener("DOMContentLoaded", () => {
       if (index < text.length) {
         element.textContent += text.charAt(index); 
         index++;
-        setTimeout(typeWriter, 200); 
+        setTimeout(typeWriter, 150); 
       }
     }
   
     document.getElementById('typewriter4').textContent = "";
+    typeWriter();
+  });
+
+  //   TEMA 2 TYPEWRITER EFFEKT
+document.addEventListener("DOMContentLoaded", () => { 
+    const text = "Grundlæggende web - Tema 2"; 
+    let index = 0;
+  
+    function typeWriter() {
+      const element = document.getElementById('typewriter5');
+      if (index < text.length) {
+        element.textContent += text.charAt(index); 
+        index++;
+        setTimeout(typeWriter, 150); 
+      }
+    }
+  
+    document.getElementById('typewriter5').textContent = "";
+    typeWriter();
+  });
+
+  //   TEMA 3 TYPEWRITER EFFEKT
+document.addEventListener("DOMContentLoaded", () => { 
+    const text = "Grundlæggende UX/UI - Tema 3"; 
+    let index = 0;
+  
+    function typeWriter() {
+      const element = document.getElementById('typewriter6');
+      if (index < text.length) {
+        element.textContent += text.charAt(index); 
+        index++;
+        setTimeout(typeWriter, 150); 
+      }
+    }
+  
+    document.getElementById('typewriter6').textContent = "";
+    typeWriter();
+  });
+
+    //   TEMA 4 TYPEWRITER EFFEKT
+    document.addEventListener("DOMContentLoaded", () => { 
+    const text = "Grundlæggende animation - Tema 4"; 
+    let index = 0;
+  
+    function typeWriter() {
+      const element = document.getElementById('typewriter7');
+      if (index < text.length) {
+        element.textContent += text.charAt(index); 
+        index++;
+        setTimeout(typeWriter, 150); 
+      }
+    }
+  
+    document.getElementById('typewriter7').textContent = "";
+    typeWriter();
+  });
+
+      //   TEMA 5 TYPEWRITER EFFEKT
+    document.addEventListener("DOMContentLoaded", () => { 
+    const text = "Grundlæggende indhold - Tema 5"; 
+    let index = 0;
+  
+    function typeWriter() {
+      const element = document.getElementById('typewriter8');
+      if (index < text.length) {
+        element.textContent += text.charAt(index); 
+        index++;
+        setTimeout(typeWriter, 150); 
+      }
+    }
+  
+    document.getElementById('typewriter8').textContent = "";
     typeWriter();
   });

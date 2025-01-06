@@ -90,6 +90,26 @@ h1{
     text-align: center;
 }
 
+#typewriter7{
+   font-size: 49px; 
+}
+
+#typewriter1{
+    margin-bottom: 40px; 
+    font-size: 60px;
+ }
+
+ #typewriter2{
+    margin-bottom: 40px; 
+    margin-top: 50px;
+    font-size: 60px;
+ }
+
+.text-container{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 p{
     font-family: var(--p_font);
     font-size: 20px;
@@ -155,6 +175,12 @@ footer{
     margin-top: -20px;
 }
 
+.Tema2_img{
+    max-height: 200px;
+    width: auto;
+    margin-top: -20px;
+}
+
 .Tema_img_1{
     max-height: 200px;
     width: auto;
@@ -212,7 +238,7 @@ h2{
     }
 
     h1{
-        font-size: 120px;
+        font-size: 100px;
         margin-top: 100px;
     }
 
