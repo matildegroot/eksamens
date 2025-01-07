@@ -314,6 +314,18 @@ h2{
         width: auto;
     }
 
+    #typewriter7{
+        font-size: 90px; 
+     }
+
+     #typewriter8{
+        font-size: 95px;
+     }
+
+     #typewriter2, #typewriter1{
+        font-size: 100px;
+     }
+
     /* Til tema 5 */
     .text-content_5{
         grid-column: 1;
